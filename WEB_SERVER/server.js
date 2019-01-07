@@ -8,6 +8,11 @@ app.get('/', (req, res) => {
     res.sendFile(`${base}/typester.html`)
 })
 
+app.get('*', (req, res) => {
+    res.sendFile(`${base}/404.html`)
+  })
+
 app.listen(port, () => {
     console.log(`listening on port ${port}`)
+    console.log(`${base}`)
 })
