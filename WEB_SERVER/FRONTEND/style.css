@@ -1,13 +1,10 @@
 body {
-    background-color: rgb(147, 147, 150);
+    background-color: rgb(114, 119, 127);
 }
 h1 {
     color: black;
     font-family: verdana;
     font-size: 300%;
-}
-p {
-    color: black;
 }
 .btn-space {
     margin-right: 5px;
